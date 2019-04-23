@@ -32,6 +32,7 @@ namespace GC_Bonus_02
 
                 if (month > 0 && month < 13)
                 {
+
                     break;
                 }
 
@@ -44,13 +45,25 @@ namespace GC_Bonus_02
                 Console.Write("What day were you born? (DD) ");
                 day = CheckValidity();
 
-                if (day > 0 && day < 32)
+                if (day > 0 && day < 29)
                 {
                     break;
                 }
 
-                Console.WriteLine("That can't be right. Please try again");
-                Console.WriteLine("with an integer between 01 and 31.");
+                if (month == 2 && year % 4 == 0 && day == 29)
+                {
+                    break;
+                }
+
+                if (month == 4 || month == 6 || month == 9 || month == 11)
+                {
+                    if (day != 31)
+                    {
+                        break;
+                    }
+                }
+
+                Console.Write("That can't be right. Please try again: ");
 
             }
 
