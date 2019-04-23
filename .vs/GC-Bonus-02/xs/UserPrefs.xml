@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{B1842D20-D22A-431F-8EFA-ACE938CFEF7F}|Default">
+  <MonoDevelop.Ide.ItemProperties.GC-Bonus-02 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../TESTING4/Delete2/Program.cs">
+    <Files>
+      <File FileName="GC-Bonus-02/Program.cs" Line="26" Column="70" />
+      <File FileName="../TESTING4/Delete2/Program.cs" Line="24" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GC-Bonus-02" expanded="True">
+            <Node name="GC-Bonus-02" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
